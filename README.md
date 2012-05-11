@@ -6,5 +6,5 @@ Download [InstallPoshAddRemove.psm1](https://github.com/skalinets/add-default-ig
 ### PSGet
 1. Install [psget](http://psget.net/)
 2. Run `Install-Package default-ignores`
-# How to contribute
+## How to contribute
 Templates are located in Content folder. Just fork, modify and send me a pull request.
