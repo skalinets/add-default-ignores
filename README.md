@@ -8,8 +8,11 @@ Download [AddDefaultIgnoreFiles.psm1](https://github.com/skalinets/add-default-i
 2. Run `Install-Package default-ignores`
 
 ## Usage
+
 `cd YOUR_PROJECT_ROOT`
+
 `Add-GitIgnore` adds .gitignore
+
 `Add-HgIgnore` adds .hgignore
 
 ## How to contribute
