@@ -5,7 +5,7 @@ This module allows to add `.gitignore` or `.hgignore` with .NET default patterns
 Download [AddDefaultIgnoreFiles.psm1](https://github.com/skalinets/add-default-ignores/edit/master/AddDefaultIgnoreFiles.psm1) and run `Import-Module AddDefaultIgnoreFiles.psm1`
 ### PSGet (not working yet)
 1. Install [psget](http://psget.net/)
-2. Run `Install-Package default-ignores`
+2. Run `Install-Module default-ignores`
 
 ## Usage
 
