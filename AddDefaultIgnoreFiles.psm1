@@ -1,6 +1,6 @@
 function Add-HgIgnore()
 {
-  (new-object Net.WebClient).DownloadString("https://raw.github.com/skalinets/add-default-ignores/master/Content/hgignore") > .hgignore
+  (new-object Net.WebClient).DownloadString("https://raw.github.com/skalinets/add-default-ignores/master/Content/hgignore") | out-file -encoding UTF8 -filepath .hgignore
 <#
 .Synopsis
     Adds VS optimized .hgignore to current directory.
@@ -15,7 +15,7 @@ function Add-HgIgnore()
 
 function Add-GitIgnore()
 {
-  (new-object Net.WebClient).DownloadString("https://raw.github.com/skalinets/add-default-ignores/master/Content/gitignore") > .gitignore
+  (new-object Net.WebClient).DownloadString("https://raw.github.com/skalinets/add-default-ignores/master/Content/gitignore") | out-file -encoding UTF8 -filepath .gitignore
 
 <#
 .Synopsis
