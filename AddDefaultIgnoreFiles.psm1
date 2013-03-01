@@ -30,4 +30,22 @@ function Add-GitIgnore()
 
 }
 
+function Add-GitAttr()
+{
+  (new-object Net.WebClient).DownloadString("https://raw.github.com/skalinets/add-default-ignores/master/Content/gitattr") | out-file -encoding UTF8 -filepath .gitattributes
+
+<#
+.Synopsis
+    Adds VS optimized .gitattributes to current directory.
+.Description 
+    Command will download default .gitattributes file from github repository (https://raw.github.com/skalinets/add-default-ignores/master/Content/gitattr) and put it to the current folder. File contains line ending defaults for major file types.
+.Link
+    https://github.com/skalinets/add-default-ignores
+.Example
+    Add-GitAttr
+#>
+
+}
+
+
 Export-ModuleMember Add-GitIgnore, Add-HgIgnore
