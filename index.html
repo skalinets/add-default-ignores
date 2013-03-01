@@ -4,58 +4,50 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Add-default-ignores by skalinets</title>
+
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
+    <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/skalinets/add-default-ignores">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/skalinets/add-default-ignores/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/skalinets/add-default-ignores/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
-
     <div class="wrapper">
+      <header>
+        <h1 class="header">Add-default-ignores</h1>
+        <p class="header">Adds default ignore files for Git and Mercurial using PowerShell</p>
 
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/skalinets/add-default-ignores/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/skalinets/add-default-ignores/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/skalinets/add-default-ignores">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/skalinets">skalinets</a></p>
+
+
+      </header>
       <section>
-        <div id="title">
-          <h1>Add-default-ignores</h1>
-          <p>Adds default ignore files for Git and Mercurial using PowerShell</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/skalinets">skalinets</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="http://twitter.com/#!/michigangraham">mattgraham</a></span>
-        </div>
-
         <h2>Introduction</h2>
 
-<p>This module allows to add <code>.gitignore</code> or <code>.hgignore</code> with .NET default patterns to current folder just after the new repository is created. Templates are taken from github (Content folder of this project).</p>
+<p>This module allows to add <code>.gitignore</code>, <code>.gitattributes</code> or <code>.hgignore</code> with .NET default patterns to current folder just after the new repository is created. Templates are taken from github (<code>Content</code> folder of this project).</p>
 
 <h2>Installation</h2>
 
-<h3>Manual</h3>
-
-<p>Download <a href="https://github.com/skalinets/add-default-ignores/edit/master/AddDefaultIgnoreFiles.psm1">AddDefaultIgnoreFiles.psm1</a> and run <code>Import-Module AddDefaultIgnoreFiles.psm1</code></p>
-
-<h3>PSGet (not working yet)</h3>
+<h3>PSGet</h3>
 
 <ol>
 <li>Install <a href="http://psget.net/">psget</a>
 </li>
 <li>Run <code>Install-Module default-ignores</code>
 </li>
-</ol><h2>Usage</h2>
+</ol><h3>Manual</h3>
+
+<p>Download <a href="https://github.com/skalinets/add-default-ignores/edit/master/AddDefaultIgnoreFiles.psm1">AddDefaultIgnoreFiles.psm1</a> and run <code>Import-Module AddDefaultIgnoreFiles.psm1</code></p>
+
+<h2>Usage</h2>
 
 <p><code>cd YOUR_PROJECT_ROOT</code></p>
 
@@ -63,13 +55,17 @@
 
 <p><code>Add-HgIgnore</code> adds .hgignore</p>
 
+<p><code>Add-GitAttr</code> adds .gitattributes</p>
+
 <h2>How to contribute</h2>
 
-<p>Templates are located in Content folder. Just fork, modify and send me a pull request.</p>
+<p>Templates are located in <code>Content</code> folder. Just fork, modify and send me a pull request.</p>
       </section>
-
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
+		
   </body>
 </html>
