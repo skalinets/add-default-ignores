@@ -32,7 +32,7 @@ function Add-GitIgnore()
 
 function Add-GitAttr()
 {
-  (new-object Net.WebClient).DownloadString("https://raw.github.com/skalinets/add-default-ignores/master/Content/gitattr") | out-file -encoding UTF8 -filepath .gitattributes
+  (new-object Net.WebClient).DownloadString("https://raw.github.com/skalinets/add-default-ignores/master/Content/gitattributes") | out-file -encoding UTF8 -filepath .gitattributes
 
 <#
 .Synopsis
