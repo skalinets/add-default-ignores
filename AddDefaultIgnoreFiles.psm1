@@ -5,7 +5,7 @@ function Add-HgIgnore()
 .Synopsis
     Adds VS optimized .hgignore to current directory.
 .Description 
-    Command will download default .hgignore file from github repository (https://raw.github.com/skalinets/add-default-ignores/master/Content/hgignore) and put it to the current folder. File contains patterns that usually should be ignored by Mercurial.
+    Command will download default .hgignore file from github repository (https://github.com/skalinets/add-default-ignores/blob/master/Content/hgignore) and put it to the current folder. File contains patterns that usually should be ignored by Mercurial.
 .Link
     https://github.com/skalinets/add-default-ignores
 .Example
@@ -21,7 +21,7 @@ function Add-GitIgnore()
 .Synopsis
     Adds VS optimized .gitignore to current directory.
 .Description 
-    Command will download default .gitignore file from github repository (https://raw.github.com/skalinets/add-default-ignores/master/Content/gitignore) and put it to the current folder. File contains patterns that usually should be ignored by git.
+    Command will download default .gitignore file from github repository (https://github.com/skalinets/add-default-ignores/blob/master/Content/gitignore) and put it to the current folder. File contains patterns that usually should be ignored by git.
 .Link
     https://github.com/skalinets/add-default-ignores
 .Example
@@ -38,7 +38,7 @@ function Add-GitAttr()
 .Synopsis
     Adds VS optimized .gitattributes to current directory.
 .Description 
-    Command will download default .gitattributes file from github repository (https://raw.github.com/skalinets/add-default-ignores/master/Content/gitattr) and put it to the current folder. File contains line ending defaults for major file types.
+    Command will download default .gitattributes file from github repository (https://github.com/skalinets/add-default-ignores/blob/master/Content/gitattributes) and put it to the current folder. File contains line ending defaults for major file types.
 .Link
     https://github.com/skalinets/add-default-ignores
 .Example
