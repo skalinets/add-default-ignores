@@ -48,4 +48,4 @@ function Add-GitAttr()
 }
 
 
-Export-ModuleMember Add-GitIgnore, Add-HgIgnore
+Export-ModuleMember Add-GitIgnore, Add-HgIgnore, Add-GitAttr
