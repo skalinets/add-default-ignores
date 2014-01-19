@@ -15,7 +15,7 @@ function Add-HgIgnore()
 
 function Add-GitIgnore()
 {
-  (new-object Net.WebClient).DownloadString("https://raw.github.com/github/gitignore/master/VisualStudio.gitignore") | out-file -encoding UTF8 -filepath .gitignore
+  (new-object Net.WebClient).DownloadString("https://raw.github.com/skalinets/add-default-ignores/master/Content/gitignore") | out-file -encoding UTF8 -filepath .gitignore
 
 <#
 .Synopsis
