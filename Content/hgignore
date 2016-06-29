@@ -32,3 +32,4 @@ _ReSharper*/
 *.orig
 */*.dotCover/*
 *crunch*
+.vs/
