@@ -21,3 +21,4 @@ Download [AddDefaultIgnoreFiles.psm1](https://github.com/skalinets/add-default-i
 
 ## How to contribute
 Templates are located in `Content` folder. Just fork, modify and send me a pull request.
+Note that .gitignore is taken from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
